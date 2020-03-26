@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6a41b301b693431399885f735d8f094d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6a41b301b693431399885f735d8f094d" ></div>
+        
+</body>
+<script>    
+    
+            var map_6a41b301b693431399885f735d8f094d = L.map(
+                "map_6a41b301b693431399885f735d8f094d",
+                {
+                    center: [47.0, 30.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f4e1b898421244439769c9d51ad8502b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6a41b301b693431399885f735d8f094d);
+        
+    
+            var marker_980e6357386d4b6da2aeb17dfc74eb25 = L.marker(
+                [41.01388889, 28.95555556],
+                {}
+            ).addTo(map_6a41b301b693431399885f735d8f094d);
+        
+    
+        var popup_aefc245f84384d9db57f3bcd3cf071dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d38f3480e6c34482b71b8a34df24f59e = $(`<div id="html_d38f3480e6c34482b71b8a34df24f59e" style="width: 100.0%; height: 100.0%;">Constantinople</div>`)[0];
+            popup_aefc245f84384d9db57f3bcd3cf071dc.setContent(html_d38f3480e6c34482b71b8a34df24f59e);
+        
+
+        marker_980e6357386d4b6da2aeb17dfc74eb25.bindPopup(popup_aefc245f84384d9db57f3bcd3cf071dc)
+        ;
+
+        
+    
+    
+            var marker_b541371952d7401b8789e509ad5e7f65 = L.marker(
+                [39.02055556, 31.28916667],
+                {}
+            ).addTo(map_6a41b301b693431399885f735d8f094d);
+        
+    
+        var popup_0a54010b47b84c01bb5cadb1b304571c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29e8063bb9424bcd96b5c298797e8e06 = $(`<div id="html_29e8063bb9424bcd96b5c298797e8e06" style="width: 100.0%; height: 100.0%;">Amorium</div>`)[0];
+            popup_0a54010b47b84c01bb5cadb1b304571c.setContent(html_29e8063bb9424bcd96b5c298797e8e06);
+        
+
+        marker_b541371952d7401b8789e509ad5e7f65.bindPopup(popup_0a54010b47b84c01bb5cadb1b304571c)
+        ;
+
+        
+    
+    
+            var marker_956a5c5775894f09b3a29e7edca59dae = L.marker(
+                [40.0, 45.0],
+                {}
+            ).addTo(map_6a41b301b693431399885f735d8f094d);
+        
+    
+        var popup_dfb0b14c4c4348a1b7bc5877ea1288f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8dcd1d39cc141a186e2705d9ca2c845 = $(`<div id="html_c8dcd1d39cc141a186e2705d9ca2c845" style="width: 100.0%; height: 100.0%;">Armenia</div>`)[0];
+            popup_dfb0b14c4c4348a1b7bc5877ea1288f0.setContent(html_c8dcd1d39cc141a186e2705d9ca2c845);
+        
+
+        marker_956a5c5775894f09b3a29e7edca59dae.bindPopup(popup_dfb0b14c4c4348a1b7bc5877ea1288f0)
+        ;
+
+        
+    
+    
+            var marker_eaec88b35a224c1aa847ceb508ff757f = L.marker(
+                [40.6, 38.0],
+                {}
+            ).addTo(map_6a41b301b693431399885f735d8f094d);
+        
+    
+        var popup_dd97c5571ccd412d83a0cee9c435465b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79d592421ee9435eab51abe986ffe225 = $(`<div id="html_79d592421ee9435eab51abe986ffe225" style="width: 100.0%; height: 100.0%;">Pontus</div>`)[0];
+            popup_dd97c5571ccd412d83a0cee9c435465b.setContent(html_79d592421ee9435eab51abe986ffe225);
+        
+
+        marker_eaec88b35a224c1aa847ceb508ff757f.bindPopup(popup_dd97c5571ccd412d83a0cee9c435465b)
+        ;
+
+        
+    
+    
+            var marker_1b746116ed664cd988ca413678048b61 = L.marker(
+                [39.02055556, 31.28916667],
+                {}
+            ).addTo(map_6a41b301b693431399885f735d8f094d);
+        
+    
+        var popup_9926e4cf7dad41ee91bd742a99f9481f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bb89a5de784490fb4bd513a7449cd0a = $(`<div id="html_6bb89a5de784490fb4bd513a7449cd0a" style="width: 100.0%; height: 100.0%;">Amorium</div>`)[0];
+            popup_9926e4cf7dad41ee91bd742a99f9481f.setContent(html_6bb89a5de784490fb4bd513a7449cd0a);
+        
+
+        marker_1b746116ed664cd988ca413678048b61.bindPopup(popup_9926e4cf7dad41ee91bd742a99f9481f)
+        ;
+
+        
+    
+</script>

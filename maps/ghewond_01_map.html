@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4e4bd57429a54418b9864eed72272368 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4e4bd57429a54418b9864eed72272368" ></div>
+        
+</body>
+<script>    
+    
+            var map_4e4bd57429a54418b9864eed72272368 = L.map(
+                "map_4e4bd57429a54418b9864eed72272368",
+                {
+                    center: [47.0, 30.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a9affaeb36f44b3dbb2b143d561863cd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+            var marker_d4815c498ab6439ca4f147e094b339d9 = L.marker(
+                [41.01527778, 28.98472222],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_065d891e51c04fa397062c5c9fadb95a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48a143c88c7c46428c172e0de64b1801 = $(`<div id="html_48a143c88c7c46428c172e0de64b1801" style="width: 100.0%; height: 100.0%;">Byzantium</div>`)[0];
+            popup_065d891e51c04fa397062c5c9fadb95a.setContent(html_48a143c88c7c46428c172e0de64b1801);
+        
+
+        marker_d4815c498ab6439ca4f147e094b339d9.bindPopup(popup_065d891e51c04fa397062c5c9fadb95a)
+        ;
+
+        
+    
+    
+            var marker_01d4e3ac4b844b59976e61b793e24216 = L.marker(
+                [32.5, 34.9],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_1e2e8aa2d9714d4a922f489d033564d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cb05e3a3b964993aad8efb4bc25dbeb = $(`<div id="html_5cb05e3a3b964993aad8efb4bc25dbeb" style="width: 100.0%; height: 100.0%;">Judaea</div>`)[0];
+            popup_1e2e8aa2d9714d4a922f489d033564d2.setContent(html_5cb05e3a3b964993aad8efb4bc25dbeb);
+        
+
+        marker_01d4e3ac4b844b59976e61b793e24216.bindPopup(popup_1e2e8aa2d9714d4a922f489d033564d2)
+        ;
+
+        
+    
+    
+            var marker_3345119421d8468f9d5cebe4e6c29e0e = L.marker(
+                [32.5, 34.9],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_010d299c2d3142848a46cd20fa0059f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b3440ad2ffa4b66bfdb3aa48e410be4 = $(`<div id="html_0b3440ad2ffa4b66bfdb3aa48e410be4" style="width: 100.0%; height: 100.0%;">Judaea</div>`)[0];
+            popup_010d299c2d3142848a46cd20fa0059f3.setContent(html_0b3440ad2ffa4b66bfdb3aa48e410be4);
+        
+
+        marker_3345119421d8468f9d5cebe4e6c29e0e.bindPopup(popup_010d299c2d3142848a46cd20fa0059f3)
+        ;
+
+        
+    
+    
+            var marker_2de4313945f1456488fd7780af029ad8 = L.marker(
+                [30.89472222, 47.57805556],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_17fa7ed061bc48959317f253c7233a98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ac662363467449383b337d33b97d368 = $(`<div id="html_8ac662363467449383b337d33b97d368" style="width: 100.0%; height: 100.0%;">Asorestan</div>`)[0];
+            popup_17fa7ed061bc48959317f253c7233a98.setContent(html_8ac662363467449383b337d33b97d368);
+        
+
+        marker_2de4313945f1456488fd7780af029ad8.bindPopup(popup_17fa7ed061bc48959317f253c7233a98)
+        ;
+
+        
+    
+    
+            var marker_68f54a2dbe1e45a9beec345542196388 = L.marker(
+                [30.89472222, 47.57805556],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_efae3738895242c9a4a7e0fa20c7de56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a476fdd7ad44fdf93b8fd3d733df509 = $(`<div id="html_9a476fdd7ad44fdf93b8fd3d733df509" style="width: 100.0%; height: 100.0%;">Asorestan</div>`)[0];
+            popup_efae3738895242c9a4a7e0fa20c7de56.setContent(html_9a476fdd7ad44fdf93b8fd3d733df509);
+        
+
+        marker_68f54a2dbe1e45a9beec345542196388.bindPopup(popup_efae3738895242c9a4a7e0fa20c7de56)
+        ;
+
+        
+    
+    
+            var marker_93731b1c40da4c5a8bd588881844c754 = L.marker(
+                [32.5, 34.9],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_1bcbbca0406348f7b64efa19a718905e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b512d0465d3491a806f9cb07d871f15 = $(`<div id="html_3b512d0465d3491a806f9cb07d871f15" style="width: 100.0%; height: 100.0%;">Judaea</div>`)[0];
+            popup_1bcbbca0406348f7b64efa19a718905e.setContent(html_3b512d0465d3491a806f9cb07d871f15);
+        
+
+        marker_93731b1c40da4c5a8bd588881844c754.bindPopup(popup_1bcbbca0406348f7b64efa19a718905e)
+        ;
+
+        
+    
+    
+            var marker_87d6decbb4da45a3b577f12ecc73735b = L.marker(
+                [32.5, 34.9],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_a889aa0ef102409aa8470a940876fe85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90744558fdb54c1e91f236cf8abf69ab = $(`<div id="html_90744558fdb54c1e91f236cf8abf69ab" style="width: 100.0%; height: 100.0%;">Judaea</div>`)[0];
+            popup_a889aa0ef102409aa8470a940876fe85.setContent(html_90744558fdb54c1e91f236cf8abf69ab);
+        
+
+        marker_87d6decbb4da45a3b577f12ecc73735b.bindPopup(popup_a889aa0ef102409aa8470a940876fe85)
+        ;
+
+        
+    
+    
+            var marker_7060eb7a2a0847aea2cb42fc339387f2 = L.marker(
+                [32.5, 34.9],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_b8004e55e3314d3684638d1d47a32131 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11d9c4dd9f9c47cf805d09aedfbcb23a = $(`<div id="html_11d9c4dd9f9c47cf805d09aedfbcb23a" style="width: 100.0%; height: 100.0%;">Judaea</div>`)[0];
+            popup_b8004e55e3314d3684638d1d47a32131.setContent(html_11d9c4dd9f9c47cf805d09aedfbcb23a);
+        
+
+        marker_7060eb7a2a0847aea2cb42fc339387f2.bindPopup(popup_b8004e55e3314d3684638d1d47a32131)
+        ;
+
+        
+    
+    
+            var marker_179aa1f41b0d4a4c9c463e8444c181a7 = L.marker(
+                [30.89472222, 47.57805556],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_8a4b0182c26b4a128f62dd5f70d20cde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b46e59f2dec4649ba5e5240e7420464 = $(`<div id="html_4b46e59f2dec4649ba5e5240e7420464" style="width: 100.0%; height: 100.0%;">Asorestan</div>`)[0];
+            popup_8a4b0182c26b4a128f62dd5f70d20cde.setContent(html_4b46e59f2dec4649ba5e5240e7420464);
+        
+
+        marker_179aa1f41b0d4a4c9c463e8444c181a7.bindPopup(popup_8a4b0182c26b4a128f62dd5f70d20cde)
+        ;
+
+        
+    
+    
+            var marker_61a219e1b0e340bab76e5a302c5733cc = L.marker(
+                [23.0, 46.0],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_c3805100146c421cbf3c1ecf6fe6bb35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_376388426fa94f51887857b498b507d5 = $(`<div id="html_376388426fa94f51887857b498b507d5" style="width: 100.0%; height: 100.0%;">Arabia</div>`)[0];
+            popup_c3805100146c421cbf3c1ecf6fe6bb35.setContent(html_376388426fa94f51887857b498b507d5);
+        
+
+        marker_61a219e1b0e340bab76e5a302c5733cc.bindPopup(popup_c3805100146c421cbf3c1ecf6fe6bb35)
+        ;
+
+        
+    
+    
+            var marker_d41a8d0fe6a54c439e5347afe6dae4f4 = L.marker(
+                [32.5, 34.9],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_cec000abb33642ada239ba5f05cdbe30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77c498881213444186d451b54719c261 = $(`<div id="html_77c498881213444186d451b54719c261" style="width: 100.0%; height: 100.0%;">Judaea</div>`)[0];
+            popup_cec000abb33642ada239ba5f05cdbe30.setContent(html_77c498881213444186d451b54719c261);
+        
+
+        marker_d41a8d0fe6a54c439e5347afe6dae4f4.bindPopup(popup_cec000abb33642ada239ba5f05cdbe30)
+        ;
+
+        
+    
+    
+            var marker_f47e2af8a8ad466d86faa62df826f896 = L.marker(
+                [30.89472222, 47.57805556],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_75f85620aced49e0a667fb81ec31e43d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69817a537aed42ee8b45074f85fbf2e5 = $(`<div id="html_69817a537aed42ee8b45074f85fbf2e5" style="width: 100.0%; height: 100.0%;">Asorestan</div>`)[0];
+            popup_75f85620aced49e0a667fb81ec31e43d.setContent(html_69817a537aed42ee8b45074f85fbf2e5);
+        
+
+        marker_f47e2af8a8ad466d86faa62df826f896.bindPopup(popup_75f85620aced49e0a667fb81ec31e43d)
+        ;
+
+        
+    
+    
+            var marker_fed500dae84849588707d9d8e291beca = L.marker(
+                [32.5, 34.9],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_c100e895cb324ecdbc7817bb5fd2aae7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebba258fac2448d2b62dc69193851cbc = $(`<div id="html_ebba258fac2448d2b62dc69193851cbc" style="width: 100.0%; height: 100.0%;">Judaea</div>`)[0];
+            popup_c100e895cb324ecdbc7817bb5fd2aae7.setContent(html_ebba258fac2448d2b62dc69193851cbc);
+        
+
+        marker_fed500dae84849588707d9d8e291beca.bindPopup(popup_c100e895cb324ecdbc7817bb5fd2aae7)
+        ;
+
+        
+    
+    
+            var marker_7c7156924207408d88782d3830d43842 = L.marker(
+                [41.01527778, 28.98472222],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_a42bf9525f0f45eba07e10c970359180 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ff9d1d12b5d4fd1a920d0caf7013555 = $(`<div id="html_8ff9d1d12b5d4fd1a920d0caf7013555" style="width: 100.0%; height: 100.0%;">Byzantines</div>`)[0];
+            popup_a42bf9525f0f45eba07e10c970359180.setContent(html_8ff9d1d12b5d4fd1a920d0caf7013555);
+        
+
+        marker_7c7156924207408d88782d3830d43842.bindPopup(popup_a42bf9525f0f45eba07e10c970359180)
+        ;
+
+        
+    
+    
+            var marker_f02038480a9f4c22b201261f61a0adff = L.marker(
+                [32.5, 34.9],
+                {}
+            ).addTo(map_4e4bd57429a54418b9864eed72272368);
+        
+    
+        var popup_2215efcf0ef54beba6afd46c2d566822 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_037daf7641d547d4a6de414ad2dc2377 = $(`<div id="html_037daf7641d547d4a6de414ad2dc2377" style="width: 100.0%; height: 100.0%;">Judaea</div>`)[0];
+            popup_2215efcf0ef54beba6afd46c2d566822.setContent(html_037daf7641d547d4a6de414ad2dc2377);
+        
+
+        marker_f02038480a9f4c22b201261f61a0adff.bindPopup(popup_2215efcf0ef54beba6afd46c2d566822)
+        ;
+
+        
+    
+</script>

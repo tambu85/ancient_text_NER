@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b5f048b20fa648d7982bb40ff193dd1e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b5f048b20fa648d7982bb40ff193dd1e" ></div>
+        
+</body>
+<script>    
+    
+            var map_b5f048b20fa648d7982bb40ff193dd1e = L.map(
+                "map_b5f048b20fa648d7982bb40ff193dd1e",
+                {
+                    center: [47.0, 30.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9d2434ead3b540c8ac0a085237024c8a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b5f048b20fa648d7982bb40ff193dd1e);
+        
+    
+            var marker_92228e7048ac4327963d928bd5906462 = L.marker(
+                [36.73916667, 41.12722222],
+                {}
+            ).addTo(map_b5f048b20fa648d7982bb40ff193dd1e);
+        
+    
+        var popup_ff5641bd1b744c158c21df0f42eaa8f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96c7056f7a26471dacaaf8894a451ffe = $(`<div id="html_96c7056f7a26471dacaaf8894a451ffe" style="width: 100.0%; height: 100.0%;">Kahat</div>`)[0];
+            popup_ff5641bd1b744c158c21df0f42eaa8f1.setContent(html_96c7056f7a26471dacaaf8894a451ffe);
+        
+
+        marker_92228e7048ac4327963d928bd5906462.bindPopup(popup_ff5641bd1b744c158c21df0f42eaa8f1)
+        ;
+
+        
+    
+    
+            var marker_4d32585ad92b4ac8a90f6b3c5f16e9a9 = L.marker(
+                [35.0, 38.0],
+                {}
+            ).addTo(map_b5f048b20fa648d7982bb40ff193dd1e);
+        
+    
+        var popup_647a1abbd96b4059a97ea578601e75c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3e5357e51d34533998006201064a745 = $(`<div id="html_e3e5357e51d34533998006201064a745" style="width: 100.0%; height: 100.0%;">Syria</div>`)[0];
+            popup_647a1abbd96b4059a97ea578601e75c2.setContent(html_e3e5357e51d34533998006201064a745);
+        
+
+        marker_4d32585ad92b4ac8a90f6b3c5f16e9a9.bindPopup(popup_647a1abbd96b4059a97ea578601e75c2)
+        ;
+
+        
+    
+    
+            var marker_d69e05ca2584492a9cbd2f80c647031d = L.marker(
+                [38.43333333, 39.77277778],
+                {}
+            ).addTo(map_b5f048b20fa648d7982bb40ff193dd1e);
+        
+    
+        var popup_af65bfe888a64a54b30a9944a4326f37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe70bd9556d243bfab1759f97af799b5 = $(`<div id="html_fe70bd9556d243bfab1759f97af799b5" style="width: 100.0%; height: 100.0%;">Tigris River</div>`)[0];
+            popup_af65bfe888a64a54b30a9944a4326f37.setContent(html_fe70bd9556d243bfab1759f97af799b5);
+        
+
+        marker_d69e05ca2584492a9cbd2f80c647031d.bindPopup(popup_af65bfe888a64a54b30a9944a4326f37)
+        ;
+
+        
+    
+    
+            var marker_0eda6a3dbebc4b2e89532099c03a9e73 = L.marker(
+                [32.03, 44.4],
+                {}
+            ).addTo(map_b5f048b20fa648d7982bb40ff193dd1e);
+        
+    
+        var popup_79e55731fac04818aa76bfe4ef3ccf82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e829a0eb4574c0ebf68ba7eea32a4a4 = $(`<div id="html_8e829a0eb4574c0ebf68ba7eea32a4a4" style="width: 100.0%; height: 100.0%;">al-Kufa</div>`)[0];
+            popup_79e55731fac04818aa76bfe4ef3ccf82.setContent(html_8e829a0eb4574c0ebf68ba7eea32a4a4);
+        
+
+        marker_0eda6a3dbebc4b2e89532099c03a9e73.bindPopup(popup_79e55731fac04818aa76bfe4ef3ccf82)
+        ;
+
+        
+    
+    
+            var marker_d1d9feafa06641d9add6bcd1da861d08 = L.marker(
+                [30.5, 47.81666667],
+                {}
+            ).addTo(map_b5f048b20fa648d7982bb40ff193dd1e);
+        
+    
+        var popup_8b1ff089dbcf4da692ea199295361db6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54a6e355e69b498d86271b72e0088c09 = $(`<div id="html_54a6e355e69b498d86271b72e0088c09" style="width: 100.0%; height: 100.0%;">Basra</div>`)[0];
+            popup_8b1ff089dbcf4da692ea199295361db6.setContent(html_54a6e355e69b498d86271b72e0088c09);
+        
+
+        marker_d1d9feafa06641d9add6bcd1da861d08.bindPopup(popup_8b1ff089dbcf4da692ea199295361db6)
+        ;
+
+        
+    
+</script>
