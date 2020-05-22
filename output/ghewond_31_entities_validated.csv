@@ -1,0 +1,5 @@
+,Unnamed: 0,Unnamed: 0.1,Unnamed: 0.1.1,Unnamed: 0.1.1.1,text_name,start,end,entity_name,rho,link_prob,lon,lat,correct
+0,0,0,0,0,arxan,732,737,Arxan,0.5,1.0,119.95,47.18333333,False
+1,1,1,1,1,Kura River,887,897,Kura River,0.5,1.0,49.33527778,39.32555556,False
+2,2,2,2,2,Bex,1021,1024,Bex,0.12288135290145875,0.2457627058029175,7.01666667,46.25,False
+3,3,3,3,3,Iberians,1238,1246,Kingdom of Iberia,0.42877548933029175,0.6303724646568298,,,True

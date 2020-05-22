@@ -1,0 +1,4 @@
+,Unnamed: 0,Unnamed: 0.1,text_name,start,end,entity_name,rho,link_prob,lon,lat,correct
+0,0,0,Balanjar,224,232,Balanjar,0.5,1.0,,,True
+1,1,1,Barda'a,700,707,"Barda, Azerbaijan",0.75,1.0,47.12666667,40.37444444,True
+2,2,2,Partaw,709,715,"Barda, Azerbaijan",0.4318181872367859,0.3636363744735718,47.12666667,40.37444444,True

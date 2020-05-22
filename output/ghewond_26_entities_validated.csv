@@ -1,0 +1,5 @@
+,Unnamed: 0,Unnamed: 0.1,Unnamed: 0.1.1,Unnamed: 0.1.1.1,Unnamed: 0.1.1.1.1,text_name,start,end,entity_name,rho,link_prob,lon,lat,correct
+0,0,0,0,0,0,Armenia,1459,1466,Armenia,0.6336098909378052,0.9456886649131776,45.0,40.0,True
+1,1,1,1,1,1,Byzantine,1862,1871,Byzantine Empire,0.3996375799179077,0.3722924292087555,,,False
+2,2,2,2,2,2,Pontus,1906,1912,Pontus (region),0.5329523086547852,0.6095041036605835,38.0,40.6,True
+3,3,3,3,3,3,Erzerum,3811,3818,Erzurum,0.5625,0.625,41.27694444,39.90861111,True

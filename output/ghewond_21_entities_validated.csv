@@ -1,0 +1,6 @@
+,Unnamed: 0,Unnamed: 0.1,text_name,start,end,entity_name,rho,link_prob,lon,lat,correct
+0,0,0,Arminiya,101,109,Arminiya,0.7189002037048341,1.0,,,True
+1,1,1,Armenia,274,281,Kingdom of Armenia (antiquity),0.5262459516525269,0.9456886649131776,,,True
+2,2,2,caliph,860,866,Fatimid Caliphate,0.4732480645179749,0.6095178127288818,,,False
+3,3,3,Yemen,1042,1047,Yemen,0.60861736536026,0.8629610538482666,48.0,15.0,False
+4,4,4,Armenian,1425,1433,Armenia,0.2019717693328857,0.379287987947464,45.0,40.0,False
