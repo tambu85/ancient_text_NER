@@ -143,9 +143,4 @@ for filename in os.listdir(path):
         m.save(output_path+'_map.html')
     
             
-        #mentions = modif_tagme.mentions(text)
-        
-        #print(mentions)
-        
-        #for mention in mentions.mentions:
-        #    print(mention)
+ 
