@@ -49,7 +49,7 @@ for chunk in ne_tree:
         index += 1
 
 
-loc_df.to_csv (path+'/output/all/ghewond_NLTK_entities.csv', header=True)
+loc_df.to_csv ('/output/all/ghewond_NLTK_entities.csv', header=True)
  
     
 sys.stdout.write("Done!")
