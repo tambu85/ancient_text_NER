@@ -72,19 +72,10 @@ def is_location(id):
 
 
 orig_stdout = sys.stdout
-access_token="bc5dac1d-a219-4cdc-ad3a-cfa66232ff0d-843339462"
+access_token="******" #insert yours
 modif_tagme.GCUBE_TOKEN = access_token
-
-#text="Thereafter they ruled over Judaea and Asorestan, putting the land and country of the blessed city \
-#of Jerusalem under taxation. Thus, from that time forth, Judaea and Asorik' ceased paying taxes to the emperor \
-#of Byzantium, since the army of the Byzantines was unable to resist the Ishmaelites. \
-#And so Ishmael came to rule over Judaea."
-
-
-#with open("/Users/marcella/Documents/NER/single_texts/ghewond_02.txt", 'r') as file:
-#    text = file.read()#.replace('\n', '')
     
-path = os.getcwd()+'/single_texts/'
+path = os.getcwd()+'/data/single_texts/'
 for filename in os.listdir(path):
     print(filename)
     with open(path+filename, 'r') as f:  
@@ -94,31 +85,22 @@ for filename in os.listdir(path):
         loc_df=pd.DataFrame(columns=['text_name', 'start', 'end', 'entity_name', 'rho','link_prob', 'lon','lat'])#,'num_occ','num_dect'])
         ent = modif_tagme.annotate(text)
         ent_dict=ent.original_json['annotations']      
-        #print(ent.original_json)
+
         
         
         for e in ent_dict:
             
-            if('title' in e.keys() and e['rho']>0.1 and e['link_probability']>0.05):  #rho 0.1 lp 0.2
-                #print(e)
-                #print("DBpedia CATEGORIES")
-                #print(e['dbpedia_categories'])
+            if('title' in e.keys() and e['rho']>0.1 and e['link_probability']>0.05):  
+
                 ent_name = e['title']    
                 wid = e['id']
                 e_start = e['start']
                 e_end = e ['end']
-        
-                #print("SUMMARY")
-                #print(wikipedia.summary(ent_name, sentences=1))
-                #print("CATEGORIES")
-            
+
                 y=is_location(wid)
                 if is_location(wid) :
                     print(ent_name)
-                    #print(e['spot'])
-                    #print(e['link_probability'])
-                    #print(e['rho'])
-                    #print("******")
+
                     coord = get_coordinates(wid)
                     if(coord!=0):
                         loc_df = loc_df.append({'text_name': e['spot'], 
@@ -143,13 +125,12 @@ for filename in os.listdir(path):
                                                 ignore_index=True)   
         
         
-        #print(loc_df)
         
         output_path=os.getcwd()+"/output/"+os.path.splitext(filename)[0]
         loc_df.to_csv (output_path+'_entities.csv', header=True)
         
         locations = loc_df.dropna()
-        #print(locations)
+
         
         # Make an empty map
         m = folium.Map(location=[47, 30], tiles="OpenStreetMap", zoom_start=2)
