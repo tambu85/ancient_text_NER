@@ -1,0 +1,15 @@
+text_name;Tara;Marcella;NLTK;Spacy;Flair;start;end;entity_name;rho;link_prob;lon;lat
+Musa;;;FALSE;;TRUE;;;;;;;
+Armenia;TRUE;TRUE;TRUE;TRUE;;488;495;Armenia;0.5641605257987976;0.9456886649131776;45.0;40.0
+Rauh;;;FALSE;;;;;;;;;
+Dwin;MISSED;MISSED;TRUE;MISSED;TRUE;;;;;;;
+Christ;;;FALSE;;;;;;;;;
+Gehenna;FALSE;FALSE;;;;1735;1742;Gehenna;0.5322548151016235;0.8808664083480835;35.23043889;31.76840611
+Kinfolk;;;;FALSE;;;;;;;;
+Christ;;;FALSE;;;;;;;;;
+Christian;;;FALSE;;;;;;;;;
+Christian;;;FALSE;;;;;;;;;
+Christian;;;FALSE;;;;;;;;;
+bury;FALSE;FALSE;;;;4782;4786;Metropolitan Borough of Bury;0.16006089746952054;0.2901257872581482;-2.29805556;53.59277778
+Khouzaima;;;FALSE;;FALSE;;;;;;;
+Prince of the Iberians;FALSE;FALSE;FALSE;FALSE;;5789;5797;Kingdom of Iberia;0.42877548933029175;0.6303724646568298;;

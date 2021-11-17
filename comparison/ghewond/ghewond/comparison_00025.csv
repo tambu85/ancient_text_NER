@@ -1,0 +1,9 @@
+text_name;Tara;Marcella;NLTK;Spacy;Flair;start;end;entity_name;rho;link_prob;lon;lat
+Bagrwand;MISSED;MISSED;TRUE;TRUE;TRUE;;;;;;;
+Christ;;;FALSE;;FALSE;;;;;;;
+Christ’s Cross;;;;;FALSE;;;;;;;
+Land of the Armenians;MISSED;MISSED;MISSED;MISSED;MISSED;;;;;;;
+Land of the Persians;FALSE;TRUE;MISSED;MISSED;MISSED;1196;1204;Achaemenid Empire;0.24255484342575076;0.3249180316925049;;
+Country of the Persians;FALSE;TRUE;MISSED;MISSED;MISSED;1403;1411;Achaemenid Empire;0.2567348182201385;0.3249180316925049;;
+High;;;FALSE;;;;;;;;;
+Armenia;TRUE;TRUE;TRUE;TRUE;TRUE;47;54;Armenia;0.5555160045623779;0.9456886649131776;45;40

@@ -1,0 +1,11 @@
+text_name;Tara;Marcella;NLTK;Spacy;Flair;start;end;entity_name;rho;link_prob;lon;lat
+Ishmaelites;;;FALSE;FALSE;;;;;;;;
+al-Malik;FALSE;FALSE;;;;134;142;Almaliq, Xinjiang;0.2916666567325592;0.5833333134651184;80.53305556;44.24
+Satan;;;FALSE;;;;;;;;;
+Muhammad;;;FALSE;;;;;;;;;
+Mahmet;;;FALSE;;;;;;;;;
+Marwan;;;FALSE;;;;;;;;;
+Jermadzor;MISSED;MISSED;TRUE;MISSED;TRUE;;;;;;;
+al-Malik;FALSE;FALSE;;;;411;419;Almaliq, Xinjiang;0.2916666567325592;0.5833333134651184;80.53305556;44.24
+Monastery of Saint Gregory;MISSED;MISSED;MISSED;MISSED;TRUE;;;;;;;
+Syria;TRUE;TRUE;MISSED;TRUE;TRUE;4599;4604;Syria;0.4265708029270172;0.7532447576522827;38.0;35.0

@@ -1,0 +1,9 @@
+text_name;Tara;Marcella;NLTK;Spacy;Flair;start;end;entity_name;rho;link_prob;lon;lat
+St. Petersburg;TRUE;TRUE;MISSED;TRUE;MISSED;95;109;Saint Petersburg;0.23012612760066986;0.4602522552013397;30.30861111;59.9375
+Leo III;;;;FALSE;;;;;;;;
+Ishmaelites;;;FALSE;FALSE;;;;;;;;
+Christian;;;FALSE;;;;;;;;;
+Yazid;;;FALSE;;;;;;;;;
+Christ;;;FALSE;;;;;;;;;
+ Harith;;;FALSE;;;;;;;;;
+land of the Armenians;MISSED;MISSED;MISSED;MISSED;MISSED;;;;;;;

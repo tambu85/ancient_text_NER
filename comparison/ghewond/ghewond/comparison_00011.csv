@@ -1,0 +1,24 @@
+text_name;Tara;Marcella;NLTK;Spacy;Flair;start;end;entity_name;rho;link_prob;lon;lat
+Land of Chinese;MISSED;MISSED;TRUE;MISSED;MISSED;;;;;;;
+(king of the) Chinese;;;FALSE;;;;;;;;;
+Ishmaelites;;;;FALSE;;;;;;;;
+Damascus;TRUE;TRUE;TRUE;TRUE;TRUE;436;444;Damascus;0.5323964357376099;0.73133385181427;36.29194444;33.51305556
+Asorestan;TRUE;TRUE;TRUE;;TRUE;478;487;Asōristān;0.6589000821113586;1.0;47.57805556;30.89472222
+Land of Persians;MISSED;MISSED;TRUE;MISSED;MISSED;;;;;;;
+Land of Khurasan;MISSED;MISSED;TRUE;MISSED;TRUE;;;;;;;
+Land of Chinese;MISSED;MISSED;TRUE;MISSED;MISSED;;;;;;;
+Botis;MISSED;MISSED;MISSED;MISSED;;;;;;;;
+(king of the) Chinese;;;FALSE;;;;;;;;;
+(king of the) Chinese;;;FALSE;;;;;;;;;
+ Chenbakur;;;FALSE;;;;;;;;;
+Babylon;TRUE;TRUE;TRUE;MISSED;TRUE;1637;1644;Babylon;0.40696981549263;0.353723406791687;44.42083333;32.53638889
+Macedonians;FALSE;FALSE;;;;1694;1705;Macedonia (ancient kingdom);0.5745237469673157;0.4687252640724182;;
+Damascus;TRUE;TRUE;TRUE;TRUE;TRUE;2078;2086;Damascus;0.3889388144016266;0.73133385181427;36.29194444;33.51305556
+Chenbakur;;;FALSE;;;;;;;;;
+Arabs;FALSE;FALSE;;;;3550;3555;Umayyad Caliphate;0.1369207501411438;0.1986066848039627;;
+(emperor of the) Chinese;FALSE;FALSE;FALSE;;;3873;3880;China;0.104812353849411;0.2017123252153397;103.0;35.0
+(king of the) Chinese;;;FALSE;;;;;;;;;
+Chinese;;;FALSE;;;;;;;;;
+(emperor the) Chinese;;;FALSE;;;;;;;;;
+(country of the) Chinese;MISSED;MISSED;TRUE;MISSED;MISSED;;;;;;;
+Caliph;;;FALSE;;;;;;;;;

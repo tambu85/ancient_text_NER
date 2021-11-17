@@ -1,0 +1,39 @@
+text_name;Tara;Marcella;NLTK;Spacy;Flair;start;end;entity_name;rho;link_prob;lon;lat
+Ishmael;;;FALSE;FALSE;;;;;;;;
+Smbat;;;;FALSE;;;;;;;;
+al-Walid;;;;;FALSE;;;;;;;
+Syria;FALSE;TRUE;MISSED;TRUE;MISSED;233;238;Roman Syria;0.5183314085006714;0.7532447576522827;36.15;36.2
+Land of the Armenians;MISSED;MISSED;MISSED;MISSED;MISSED;;;;;;;
+Vaspurakan;TRUE;TRUE;MISSED;MISSED;TRUE;524;534;Vaspurakan;0.4655172526836395;0.931034505367279;44.0;38.8
+Prince Ashot;;;FALSE;;;;;;;;;
+(fortress of) Dariwnk;MISSED;MISSED;MISSED;MISSED;MISSED;;;;;;;
+Syria;FALSE;TRUE;MISSED;TRUE;TRUE;1650;1655;Syria;0.5855268239974976;0.7532447576522827;38.0;35.0
+Marwan;;;FALSE;;;;;;;;;
+Ishmaelite;;;;;FALSE;;;;;;;
+caliph;FALSE;FALSE;;;;1682;1688;Fatimid Caliphate;0.4401300549507141;0.6095178127288818;;
+Patrician;;;FALSE;;;;;;;;;
+Marwan;;;;;FALSE;;;;;;;
+Syria;FALSE;TRUE;MISSED;TRUE;MISSED;2352;2357;Syria;0.5792322754859924;0.7532447576522827;38.0;35.0
+Mamikonean House;;;;;FALSE;;;;;;;
+Armenian (troops);;;FALSE;;;;;;;;;
+Marwan;;;FALSE;FALSE;;;;;;;;
+Ashot;;;FALSE;;;;;;;;;
+Ashot;;;FALSE;;;;;;;;;
+Ishmaelites;;;FALSE;FALSE;;;;;;;;
+Prince Ashot;;;FALSE;;;;;;;;;
+Ishmaelites;;;FALSE;FALSE;;;;;;;;
+Armenia;TRUE;TRUE;TRUE;TRUE;TRUE;1459;1466;Armenia;0.6336098909378052;0.9456886649131776;45.0;40.0
+Fortress of Tayk’;MISSED;MISSED;MISSED;MISSED;TRUE;;;;;;;
+Byzantine (emperor);FALSE;FALSE;;;;1862;1871;Byzantine Empire;0.3996375799179077;0.3722924292087555;;
+Pontus;TRUE;TRUE;TRUE;MISSED;TRUE;1906;1912;Pontus (region);0.5329523086547852;0.6095041036605835;38.0;40.6
+Copronymous;;;FALSE;;;;;;;;;
+Paulician;;;FALSE;;;;;;;;;
+Hazr;MISSED;MISSED;TRUE;MISSED;TRUE;;;;;;;
+Bagrewand;MISSED;MISSED;TRUE;TRUE;TRUE;;;;;;;
+Ishmael;;;FALSE;FALSE;;;;;;;;
+Mamikonean;;;FALSE;;;;;;;;;
+Armenian (people);;;FALSE;;;;;;;;;
+Karin;MISSED;MISSED;MISSED;TRUE;TRUE;;;;;;;
+Erzerum;TRUE;TRUE;MISSED;MISSED;TRUE;3811;3818;Erzurum;0.5625;0.7;41.27694444;39.90861111
+Clan’s;;;;;FALSE;;;;;;;
+Dariwnk;MISSED;MISSED;MISSED;MISSED;TRUE;;;;;;;

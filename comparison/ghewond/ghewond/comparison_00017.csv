@@ -1,0 +1,18 @@
+text_name;Tara;Marcella;NLTK;Spacy;Flair;start;end;entity_name;rho;link_prob;lon;lat
+Ishmaelites;;;FALSE;FALSE;;;;;;;;
+Marwan;;;FALSE;;;;;;;;;
+Arminiya;TRUE;TRUE;TRUE;MISSED;TRUE;101;109;Arminiya;0.7189002037048341;1.0;;
+Armenian (people);;;FALSE;;;;;;;;;
+Dwin;MISSED;MISSED;TRUE;MISSED;TRUE;;;;;;;
+Armenia;TRUE;TRUE;TRUE;TRUE;TRUE;274;281;Kingdom of Armenia (antiquity);0.5262459516525269;0.9456886649131776;;
+Bagratid;;;;;FALSE;;;;;;;
+Marwan;;;;;FALSE;;;;;;;
+Land of the Armenians;MISSED;MISSED;MISSED;MISSED;MISSED;;;;;;;
+Hisham;;;FALSE;;;;;;;;;
+Ashot;;;FALSE;;;;;;;;;
+Muhammad;;;FALSE;;;;;;;;;
+Ishmaelite;;;;;FALSE;;;;;;;
+caliph;FALSE;FALSE;;;;860;866;Fatimid Caliphate;0.4732480645179749;0.6095178127288818;;
+Yemen;FALSE;TRUE;TRUE;TRUE;TRUE;1042;1047;Yemen;0.60861736536026;0.8629610538482666;48.0;15.0
+Armenian (lords);FALSE;FALSE;FALSE;;;1425;1433;Armenia;0.20197176933288571;0.379287987947464;45.0;40.0
+Ishmaelites;;;;FALSE;;;;;;;;

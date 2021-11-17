@@ -1,0 +1,43 @@
+text_name;Tara;Marcella;NLTK;Spacy;Flair;start;end;entity_name;rho;link_prob;lon;lat
+al-Malik;FALSE;FALSE;;;;12;20;Almaliq, Xinjiang;0.3266428112983704;0.5833333134651184;80.53305556;44.24
+Walid;;;FALSE;;;;;;;;;
+Ishmaelites;;;FALSE;FALSE;;;;;;;;
+Armenian (lords);;;FALSE;;;;;;;;;
+Byzantine (emperor);FALSE;FALSE;;;;549;558;Byzantine Empire;0.4563583731651306;0.3722924292087555;;
+Byzantine (general);FALSE;FALSE;;;;730;739;Byzantine Empire;0.2572562396526337;0.3722924292087555;;
+Drashpet;MISSED;MISSED;MISSED;MISSED;TRUE;;;;;;;
+Vanand;TRUE;TRUE;TRUE;TRUE;TRUE;806;812;Vanand;0.27272728085517883;0.5454545617103577;;
+Ishmaelite;;;;;FALSE;;;;;;;
+allies;FALSE;FALSE;;;;1150;1156;Allies of World War II;0.22163867950439453;0.08009790629148482;;
+Byzantine (troops);FALSE;FALSE;FALSE;;;1169;1178;Byzantine Empire;0.3582900166511536;0.3722924292087555;;
+Dwin;MISSED;MISSED;TRUE;MISSED;TRUE;;;;;;;
+Ishmaelites;;;;FALSE;;;;;;;;
+Armenian (lords);;;FALSE;;;;;;;;;
+Byzantine (troops);;;FALSE;;;1169;1178;Byzantine Empire;0.3582900166511536;0.3722924292087555;;
+Kasim;;;FALSE;;;;;;;;;
+Naxchawan;MISSED;MISSED;TRUE;TRUE;TRUE;;;;;;;
+Armenian (lords);;;FALSE;;;;;;;;;
+Naxchawan;MISSED;MISSED;TRUE;TRUE;TRUE;;;;;;;
+Xram;MISSED;MISSED;TRUE;TRUE;TRUE;;;;;;;
+God;;;FALSE;;FALSE;;;;;;;
+Babylon;TRUE;TRUE;TRUE;MISSED;TRUE;3109;3116;Babylonia;0.2636356055736542;0.353723406791687;;
+High;;;FALSE;;;;;;;;;
+Smbat;;;;FALSE;;;;;;;;
+Ashot;;;FALSE;;;;;;;;;
+Bagratid;;;FALSE;;FALSE;;;;;;;
+Koriwn;;;FALSE;;;;;;;;;
+Armenian (lords);;;FALSE;;;;;;;;;
+Land of the Armenians;MISSED;MISSED;MISSED;MISSED;MISSED;;;;;;;
+Poti;TRUE;TRUE;TRUE;MISSED;TRUE;5253;5257;Poti;0.3696969747543335;0.739393949508667;41.67638889;42.14194444
+Land of Egeria;MISSED;MISSED;TRUE;TRUE;TRUE;;;;;;;
+caliph;FALSE;FALSE; ;;;5448;5454;Fatimid Caliphate;0.4672771096229553;0.6095178127288818;;
+Armenian (lords);;;FALSE;;;;;;;;;
+Armenia;TRUE;TRUE;TRUE;TRUE;;6149;6156;Armenia;0.5123494267463684;0.9456886649131776;45.0;40.0
+Byzantine (emperor);FALSE;FALSE;FALSE;;;6188;6197;Byzantine Empire;0.3050096929073334;0.3722924292087555;;
+Easter;;;FALSE;;;;;;;;;
+Land of the Armenians;MISSED;MISSED;MISSED;MISSED;MISSED;;;;;;;
+Ishmael;;;FALSE;FALSE;;;;;;;;
+Dwin;MISSED;MISSED;TRUE;MISSED;TRUE;;;;;;;
+Dwin;MISSED;MISSED;MISSED;MISSED;MISSED;;;;;;;
+ Tachik (troops);;;FALSE;;;;;;;;;
+Ishmaelites;;;FALSE;FALSE;;;;;;;;
